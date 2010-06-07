@@ -1,0 +1,13 @@
+// package declaration
+
+// import statements
+
+// func main
+
+   // Parse flags
+   // Check for enough (>0) params
+      // conditionally print error message and quit, or...
+   // Get the arguments as an array of strings
+   // Pass the array to an "expr" function in module expr.
+
+// End of program.
