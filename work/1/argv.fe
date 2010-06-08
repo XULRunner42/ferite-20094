@@ -1,3 +1,4 @@
+#!/usr/bin/env ferite
 // The importing of extra functionality
 uses "console", "array";
 
