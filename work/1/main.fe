@@ -1,13 +1,16 @@
-// package declaration
+uses "console", "array";
 
-// import statements
+Console.println(argv);
 
-// func main
+if( Array.size(argv)<1 ) {
+   Console.println( "expr: missing operand" );
+   return;
 
-   // Parse flags
-   // Check for enough (>0) params
-      // conditionally print error message and quit, or...
-   // Get the arguments as an array of strings
-   // Pass the array to an "expr" function in module expr.
+   // This is a script!  There is no function main(), so I don't know
+   // if this will work... argv is not "received," so can we really
+   // return?  What kind of scope are we actually in here?
+}
+
+Console.println( Expr.expr(argv) );
 
 // End of program.

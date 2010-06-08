@@ -1,0 +1,12 @@
+// The importing of extra functionality
+uses "console", "array";
+
+// Declaration of a function. Classes and Namespaces also go here
+function processArgument( string argument ) {
+    Console.println( "Argument: " + argument );
+}
+
+// The startup code
+Array.each( argv ) using ( argument ) {
+    processArgument( argument );
+};
