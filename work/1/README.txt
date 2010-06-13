@@ -27,16 +27,20 @@ effort is also revising the solutions presented then, into a 20094 set.
 ========================================
 3. Usage
 ========================================
-./expr escaped-expression
+./expr -- escaped-expression
 
 example:
-$ ./expr 7 \* \( 5 + 3 \* 8 \) / 4 - \( 2 + 9 \) - 1
+$ ./expr -- 7 \* \( 5 + 3 \* 8 \) / 4 - \( 2 + 9 \) - 1
 38
 
 The escapes ['\*', '\(', '\)'] may be necessary to prevent the shell
 from interpreting your arguments as shell commands.  The expr command
 should correctly handle any operators that you throw at it, including
 parenthesis to force a particular order of operations.
+
+Ferite requires that arguments passed into the script are following a
+symbolic -- to indicate the end of compiler/interpreter argument list.
+There might be something better to say than "#!/usr/bin/env ferite" ?
 
 ========================================
 4. Known Issues

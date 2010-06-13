@@ -1,4 +1,5 @@
-uses "console", "array";
+#!/usr/bin/env ferite
+uses "console", "array", "expr.fe";
 
 Console.println(argv);
 

@@ -1,3 +1,9 @@
 // import statements
 
 // declaration of expr(string[]) the recursive function
+
+namespace Expr {
+    function expr (array args) {
+	return args;
+    }
+}
