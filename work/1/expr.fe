@@ -5,5 +5,6 @@
 namespace Expr {
     function expr (array args) {
 	return args;
+	// return: single int number or a string with it
     }
 }
