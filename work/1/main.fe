@@ -1,7 +1,7 @@
 #!/usr/bin/env ferite
 uses "console", "array", "expr.fe";
 
-Console.println(argv);
+//Console.println(argv);
 
 if( Array.size(argv)<1 ) {
    Console.println( "expr: missing operand" );
